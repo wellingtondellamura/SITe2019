@@ -1,0 +1,32 @@
+.img-logo {
+  width: 15px;
+}
+
+.img-main {
+  width: 60px;
+}
+
+.welcome-heading{
+  font-family: 'Architects Daughter', cursive;
+}
+
+.main-button {
+ margin: 5px;
+ width: 17em;
+}
+
+.spacer-15 {
+  height: 15px;
+}
+
+.spacer-20 {
+  height: 20px;
+}
+
+.spacer-30 {
+  height: 30px;
+}
+
+.spacer-50 {
+  height: 50px;
+}
