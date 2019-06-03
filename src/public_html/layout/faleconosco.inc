@@ -4,12 +4,12 @@
     <div class="container py-5">
       <div class="row">
           <div class="col">
-            <p class="text-center h4">Em caso de dúvidas entre em contato conosco utilizando um dos canais abaixo </p>
-            <div class="spacer"> </div>
-            <div class="h5 text-center">
-              <p> <i class="fab fa-whatsapp text-success"></i> Whatsapp: +55 (43) 9 9999-1234 (Prof. Biluka)</p>
-              <p> <i class="far fa-envelope text-danger"></i> E-mail:  <cct@uenp.edu.br> Centro de Ciências Tecnológicas</p>
-              <p> <i class="fab fa-facebook text-primary"></i> Facebook: <a href="https://facebook.com/siteuenp">https://facebook.com/siteuenp</a></p>
+            <p class="text-center h5">Em caso de dúvidas entre em contato conosco utilizando um dos canais abaixo </p>
+            <div class="spacer-50"> </div>
+            <div class="h6 text-center">
+              <p> <i class="fab fa-whatsapp text-success"></i> Whatsapp: +55 43 9 9968-4031 (Prof. Biluka)</p>
+              <p> <i class="far fa-envelope text-danger"></i> <a href="mailto:cct@uenp.edu.br">cct@uenp.edu.br</a> - Centro de Ciências Tecnológicas</p>
+              <p> <i class="fab fa-facebook text-primary"></i> <a href="https://www.facebook.com/siuenp">Página do CCT no Facebook</a></p>
             </div>
           </div>
       </div>

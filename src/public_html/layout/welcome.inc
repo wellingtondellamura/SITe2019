@@ -8,9 +8,9 @@
         </h1>
         <h2 class="welcome-heading display-5 text-white"><?=$data['fullname']?></h2>
         <p class="text-white h6 text-justify"><?=$data['description']?></p>
-        <a href="#" class="btn btn-lg btn-primary btn-squared align-self-center main-button">Inscrições Abertas</a>
+        <a href="nav.php?page=inscricao" class="btn btn-lg btn-primary btn-squared align-self-center main-button">Inscrições (Em breve)</a>
 
-        <a href="#" class="btn btn-lg btn-secondary btn-squared align-self-center main-button">Submissão de Trabalhos</a>
+        <a href="nav.php?page=submissao" class="btn btn-lg btn-secondary btn-squared align-self-center main-button">Submissão de Trabalhos</a>
     </div>
   </div>
 </div>

@@ -1,39 +1,59 @@
 <!-- Testimonials Section -->
 <div class="testimonials section-invert py-4">
-    <h3 class="section-title text-center m-5">Palestrantes Confirmados</h3>
+    <h3 class="section-title text-center m-5">Profissionais Confirmados</h3>
     <div class="container py-5">
       <div class="row">
-          <div class="col-md-4 testimonial text-center">
-              <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
-                  <img src="images/common/avatar-1.jpeg" class="w-100" alt="Testimonial Avatar" />
-              </div>
-              <h5 class="mb-1">Osbourne Tranter</h5>
-              <span class="text-muted d-block mb-2">CEO at Megacorp</span>
-              <p>Vivamus quis ex mattis, gravida erat a, iaculis urna. Proin ac eleifend tortor. Nunc in augue eget enim venenatis viverra.</p>
-              <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-danger">A</button>
-                <button type="button" class="btn btn-danger">B</button>
-                <button type="button" class="btn btn-danger">C</button>
-              </div>
-          </div>
-
-          <div class="col-md-4 testimonial text-center">
-              <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
-                  <img src="images/common/avatar-2.jpeg" class="w-100" alt="Testimonial Avatar" />
-              </div>
-              <h5 class="mb-1">Darrin Ollie</h5>
-              <span class="text-muted d-block mb-2">CEO at Megacorp</span>
-              <p>Nullam eu ligula facilisis, commodo velit non, vulputate dolor. Aenean congue euismod vestibulum.</p>
-          </div>
-
-          <div class="col-md-4 testimonial text-center">
-              <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
-                  <img src="images/common/avatar-3.jpeg" class="w-100" alt="Testimonial Avatar" />
-              </div>
-              <h5 class="mb-1">Quinton Bruce</h5>
-              <span class="text-muted d-block mb-2">CEO at Megacorp</span>
-              <p> Aenean imperdiet ultrices tortor id convallis. Donec id metus magna. Morbi pretium odio faucibus blandit gravida.</p>
-          </div>
+        <div class="col-md-4 testimonial text-center">
+            <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+                <img src="images/avatar/elielson-barbosa.png" class="w-100" alt="Testimonial Avatar" />
+            </div>
+            <h5 class="mb-1">Elielson Barbosa de Souza</h5>
+            <span class="text-muted d-block mb-2">
+              Sistemas de Informação/2014
+              <br/>
+              Operações de Infraestrutura do TRT da 15o Região
+            </span>
+            <span class="text-center h5">
+              <i class="fab fa-facebook text-primary"></i>
+              <i class="fab fa-twitter text-info"></i>
+              <i class="fas fa-envelope text-danger"></i>
+            </span>
+            <h4>Docker: Administrando Containers</h4>
+        </div>
+        <div class="col-md-4 testimonial text-center">
+            <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+                <img src="images/avatar/erikson-aguiar.png" class="w-100" alt="Testimonial Avatar" />
+            </div>
+            <h5 class="mb-1">Erikson Júlio de Aguiar</h5>
+            <span class="text-muted d-block mb-2">
+              Ciência da Computação/2017
+              <br/>
+              Mestrando no ICMC/USP
+            </span>
+            <span class="text-center h5">
+              <i class="fab fa-facebook text-primary"></i>
+              <i class="fab fa-twitter text-info"></i>
+              <i class="fas fa-envelope text-danger"></i>
+            </span>
+            <h4>Fundamentos e desafios do blockchain 3.0.</h4>
+        </div>
+        <div class="col-md-4 testimonial text-center">
+            <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+                <img src="images/avatar/roberto-elero.png" class="w-100" alt="Testimonial Avatar" />
+            </div>
+            <h5 class="mb-1">Roberto Elero Junior</h5>
+            <span class="text-muted d-block mb-2">
+              Sistemas de Informação/2015
+              <br/>
+              Desenvolvedor Java no iFood
+            </span>
+            <span class="text-center h5">
+              <i class="fab fa-facebook text-primary"></i>
+              <i class="fab fa-twitter text-info"></i>
+              <i class="fas fa-envelope text-danger"></i>
+            </span>
+            <h4>Migrando microsserviços legados com segurança</h4>
+        </div>
       </div>
     </div>
 </div>

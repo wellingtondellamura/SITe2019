@@ -1,6 +1,5 @@
 <div class="container">
-<nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.php">
     <?=$data['name']?>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,16 +8,16 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Início</a>
+        <a class="nav-link" href="index.php">Início</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Incrições</a>
+        <a class="nav-link" href="nav.php?page=inscricao">Incrições</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Submissões</a>
+        <a class="nav-link" href="nav.php?page=submissao">Submissões</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Programação</a>
+        <a class="nav-link" href="nav.php?page=programacao">Programação</a>
       </li>
     </ul>
 
@@ -34,5 +33,4 @@
       </li>
     </ul>
   </div>
-</nav>
 </div>

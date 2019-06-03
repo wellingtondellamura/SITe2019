@@ -1,6 +1,10 @@
 <?php
   require 'app/data.inc';
   require 'app/util.inc';
+  $page = "home";
+  if (isset($_GET['page']))
+    $page = fromGet('page');
+  $file = "pages/$page.php";
 ?>
 <!doctype html>
 <html class="no-js" lang="pt-BR">
@@ -19,33 +23,33 @@
         <link rel="stylesheet" href="css/shards.css">
         <link rel="stylesheet" href="css/shards-extras.css">
         <link rel="stylesheet" href="css/site.css">
+        <style media="screen">
+        .site {
+          display: flex;
+          min-height: 100vh;
+          flex-direction: column;
+        }
+
+        .site-content {
+          flex: 1;
+        }
+        </style>
     </head>
-    <body class="shards-landing-page--1">
-      <div class="welcome d-flex justify-content-center flex-column">
-          <nav class="navbar navbar-expand-lg navbar-dark  mb-4">
-            <?php include 'layout/navigation.inc';?>
-          </nav>
-        <!-- Welcome Section -->
-        <?php include 'layout/welcome.inc';?>
-        <!-- / Welcome Section -->
+    <body class="site">
+      <div class="d-flex justify-content-center flex-column">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-4">
+          <?php include 'layout/navigation.inc';?>
+        </nav>
       </div>
+      <div class="container site-content">
+        <?php
 
-      <!-- Apresentacao Section -->
-      <?php include 'layout/apresentacao.inc';?>
-      <!-- / Apresentacao Section -->
-
-      <!-- Palestrantes Section -->
-      <?php include 'layout/palestrantes.inc';?>
-      <!-- / Palestrantes Section -->
-
-      <!-- Minicursos Section -->
-      <?php include 'layout/minicursos.inc';?>
-      <!-- / Minicursos Section -->
-
-      <!-- Faleconosco Section -->
-      <?php include 'layout/faleconosco.inc';?>
-      <!-- / Faleconosco Section -->
-
+          if (file_exists($file))
+            include $file;
+          else
+            include "404.php";
+        ?>
+      </div>
       <!-- Footer Section -->
       <?php include 'layout/footer.inc';?>
       <!-- / Footer Section -->
