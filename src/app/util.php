@@ -35,4 +35,12 @@ function isValid($var) {
 function getHtml($tag, $value="", $attr=""){
     return "<$tag $attr>$value</$tag>";
 }
-?>
+
+
+function addEllipsis($text, $size){
+   
+   if (strlen($text) > $size+3){
+      $text = substr($text, 0, $size-3)."...";
+   }
+   return $text;
+}

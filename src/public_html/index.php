@@ -1,6 +1,5 @@
 <?php
-  require 'app/data.inc';
-  require 'app/util.inc';
+  require_once 'bootstrap.php';
 ?>
 <!doctype html>
 <html class="no-js" lang="pt-BR">
@@ -21,33 +20,69 @@
         <link rel="stylesheet" href="css/site.css">
     </head>
     <body class="shards-landing-page--1">
-      <div class="welcome d-flex justify-content-center flex-column">
-          <nav class="navbar navbar-expand-lg navbar-dark  mb-4">
-            <?php include 'layout/navigation.inc';?>
-          </nav>
-        <!-- Welcome Section -->
-        <?php include 'layout/welcome.inc';?>
-        <!-- / Welcome Section -->
+    <div class="welcome d-flex justify-content-center flex-column">
+      <nav class="navbar navbar-expand-lg navbar-dark  mb-4">
+        <?php include 'layout/navigation.php';?>
+      </nav>
+      <!-- Welcome Section -->
+      <div class="inner-wrapper mt-auto mb-auto container">
+        <div class="row">
+          <div class="col-md-9">
+              <h1 class="welcome-heading display-3 text-white">
+              <img src="images/logo_mini.png" class="img-main" alt="<?=$data['name']?>">
+                <?=$data['name']?>
+              </h1>
+              <h2 class="welcome-heading display-5 text-white"><?=$data['fullname']?></h2>
+              <p class="text-white h6 text-justify"><?=$data['description']?></p>
+              <a href="nav.php?page=inscricao" class="btn btn-lg btn-primary btn-squared align-self-center main-button">Inscrições (Em breve)</a>
+
+              <a href="nav.php?page=submissao" class="btn btn-lg btn-secondary btn-squared align-self-center main-button">Submissão de Trabalhos</a>
+          </div>
+        </div>
       </div>
+      <!-- / Welcome Section -->
+    </div>
 
       <!-- Apresentacao Section -->
-      <?php include 'layout/apresentacao.inc';?>
+      <?php include 'layout/apresentacao.php';?>
       <!-- / Apresentacao Section -->
 
       <!-- Palestrantes Section -->
-      <?php include 'layout/palestrantes.inc';?>
+      <div class="testimonials section-invert py-4">
+        <h3 class="section-title text-center m-5">Profissionais Confirmados</h3>
+        <div class="container py-5">
+          <div class="row">
+            <?php participantesRenderList();?>  
+          </div>
+        </div>
+      </div>
       <!-- / Palestrantes Section -->
 
       <!-- Minicursos Section -->
-      <?php include 'layout/minicursos.inc';?>
+      <?php include 'layout/minicursos.php';?>
       <!-- / Minicursos Section -->
 
       <!-- Faleconosco Section -->
-      <?php include 'layout/faleconosco.inc';?>
+      <div class="testimonials section-invert py-4">
+          <h3 class="section-title text-center m-5">Fale Conosco</h3>
+          <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                  <p class="text-center h5">Em caso de dúvidas entre em contato conosco utilizando um dos canais abaixo </p>
+                  <div class="spacer-50"> </div>
+                  <div class="h6 text-center">
+                    <p> <i class="fab fa-whatsapp text-success"></i> Whatsapp: +55 43 9 9968-4031 (Prof. Biluka)</p>
+                    <p> <i class="far fa-envelope text-danger"></i> <a href="mailto:cct@uenp.edu.br">cct@uenp.edu.br</a> - Centro de Ciências Tecnológicas</p>
+                    <p> <i class="fab fa-facebook text-primary"></i> <a href="https://www.facebook.com/siuenp">Página do CCT no Facebook</a></p>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
       <!-- / Faleconosco Section -->
 
       <!-- Footer Section -->
-      <?php include 'layout/footer.inc';?>
+      <?php include 'layout/footer.php';?>
       <!-- / Footer Section -->
 
       <!-- JavaScript Dependencies -->

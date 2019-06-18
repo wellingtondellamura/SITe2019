@@ -1,6 +1,5 @@
 <?php
-  require 'app/data.inc';
-  require 'app/util.inc';
+  require_once 'bootstrap.php';
   $page = "home";
   if (isset($_GET['page']))
     $page = fromGet('page');
@@ -38,7 +37,7 @@
     <body class="site">
       <div class="d-flex justify-content-center flex-column">
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-4">
-          <?php include 'layout/navigation.inc';?>
+          <?php include 'layout/navigation.php';?>
         </nav>
       </div>
       <div class="container site-content">
@@ -51,7 +50,7 @@
         ?>
       </div>
       <!-- Footer Section -->
-      <?php include 'layout/footer.inc';?>
+      <?php include 'layout/footer.php';?>
       <!-- / Footer Section -->
 
       <!-- JavaScript Dependencies -->

@@ -1,4 +1,3 @@
-<!-- Our Services Section -->
 <div id="our-services" class="our-services section py-4">
   <h3 class="section-title text-center my-5">Apresentação</h3>
   <div class="features py-4 mb-4">
@@ -27,7 +26,7 @@
           <div class="icon text-primary mr-3"><i class="fas fa-user-astronaut"></i></div>
           <div class="px-4">
               <h5>Inscrições</h5>
-              <p>As inscrições para o evento e também para os minicursos devem ser realizadas a partir de XX de XXXXX de 2019.
+              <p>As inscrições para o evento e também para os minicursos podem ser realizadas a partir de 01 de julho de 2019.
                 <br/><br/><a href="nav.php?page=inscricao" class="btn btn-sm btn-primary btn-squared">Inscrições (Em breve)</a></p>
           </div>
         </div>
@@ -64,6 +63,4 @@
 
     </div>
   </div>
-  <!-- / Features -->
 </div>
-<!-- / Our Services Section -->
