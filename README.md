@@ -13,4 +13,4 @@
  * MySQL
  * Shards CSS Template
  * Bootstrap
- * Royalt-Free images from Unsplash.com
+ * Royalty-Free images from Unsplash.com
