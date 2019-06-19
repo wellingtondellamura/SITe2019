@@ -3,4 +3,6 @@
         include 'list.php';
     }
 
-?>
+    function participanteRenderOne(){
+        include 'show.php';
+    }

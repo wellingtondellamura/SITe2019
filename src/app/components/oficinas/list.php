@@ -8,9 +8,9 @@
     <div class="card mb-4" style="max-height: 600px; height: 600px;">
       <img class="card-img-top" src="images/common/<?=$item['foto']?>" alt="<?=$item['titulo']?>">
       <div class="card-body">
-        <h5 class="card-title text-center"><?=$item['titulo']?></h5>
+       <a href="nav.php?page=oficina&id=<?=$item['id']?>"> <h5 class="card-title text-center"><?=$item['titulo']?></h5> </a>
         <p class="card-text text-justify " style="max-height: 100px;"><?=addEllipsis($item['descricao'], 180)?> 
-       <a href="nav.php?page=detalhe-minicurso&id=<?=$item['id']?>">(leia mais)</a>
+       <a href="nav.php?page=oficina&id=<?=$item['id']?>">(leia mais)</a>
         </p>
         
       </div>

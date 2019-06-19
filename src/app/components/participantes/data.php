@@ -9,3 +9,22 @@ function getParticipantes(){
   }
   return $array;
 }
+
+
+
+function getParticipanteFromId($id){
+  if (!isset($id))
+    return null;
+  $sql = "select id, nome, graduacao, ano_graduacao, pos_graduacao, empresa, area_atuacao, resumo, contato, redes_sociais, foto from participante where id = $id";     
+  return oneFromDatabase($sql);
+}
+
+
+function getOficinaFromParticipanteId($id){
+  if (!isset($id))
+    return null;
+  $sql = "select o.titulo, o.id, o.descricao, o.foto, o.vagas, ".
+         "o.prerequisitos, o.carga_horaria from oficina o where participante_id = $id";
+         
+  return fromDatabase($sql);
+}
