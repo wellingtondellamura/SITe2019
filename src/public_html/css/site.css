@@ -36,6 +36,14 @@ a {
   height: 50px;
 }
 
+.v-separator {
+  height: 70%;
+  margin: 0 auto;
+  margin-top: 15%;
+  width: 2px;
+  background-color: #babfc4;
+}
+
 .construction {
   text-align: center;
   margin-top: 4em;
@@ -49,4 +57,17 @@ a {
 
 section>main>p {
   font-size: large;
+}
+
+
+.prog-header {
+  margin-top: 25px;
+  
+}
+
+.separator{
+  font-size: small;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
