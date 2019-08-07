@@ -19,7 +19,7 @@
         <h4>Por favor, informe os dados para prosseguir</h4>
         <div class="row align-items-center ">
           <div class="form-group col-12 col-md-6">
-              <input type="text" class="form-control" name="cpf" placeholder="CPF" required="true" value="<?=$cpf?>">
+              <input type="text" class="form-control cpf" name="cpf" placeholder="CPF" required="true" value="<?=$cpf?>">
               <small id="cpfHelp" class="form-text text-muted">Informe seu CPF no formato 123.456.789-10.</small>
           </div>
           <div class="form-group col-12 col-md-6 ">

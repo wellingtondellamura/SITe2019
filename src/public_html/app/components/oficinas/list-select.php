@@ -38,10 +38,12 @@
               <input type="checkbox" id="chk-<?=$item['id']?>" name="minicursos[]" class="custom-control-input" value="<?=$item['id']?>">
               <label class="custom-control-label" for="chk-<?=$item['id']?>">Desejo participar!</label>
           </div>
-        </div>
       <?php } else { ?>
         <div class="text-center"><span class="badge badge-danger text-center"> Vagas Esgotadas </span></div>
+        
       <?php } ?>
+      
+      </div>
     </div>
   </div>
 <?php } ?>

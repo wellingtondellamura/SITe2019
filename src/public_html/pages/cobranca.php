@@ -49,12 +49,12 @@
       <ul>
         <li>A taxa de inscrição deve ser recolhida por meio de boleto bancário. O valor da inscrição é <strong>R$ <?=$data['subscription']?>,00</strong> com direito a <strong><?=$data['bonus-workshop']?> minicurso</strong>.</li>
         <li>Aos interessados em participar em mais minicursos, o valor adicional de cada minicurso é <strong>R$ <?=$data['workshop']?>,00</strong>.</li>
-        <li>O comprovante de pagamento deve ser enviado para <i class="text-primary">site.clm@uenp.edu.br</i> com o assunto <i class="text-primary">"SEU NOME - pagamento SITe"</i>.</li>  
+        <li>O comprovante de pagamento deve ser enviado para <i class="text-primary">site.cct@uenp.edu.br</i> com o assunto <i class="text-primary">"SEU NOME - pagamento SITe"</i>.</li>  
       </ul>
     </div>
 
     <div class="alert alert-secondary text-center h6">
-      Caso queria se inscrever em novos minicursos, por favor solicite via e-mail para <i class="text-primary">site.clm@uenp.edu.br</i>.
+      Caso queria se inscrever em novos minicursos ou alterar sua inscrição, por favor solicite via e-mail para <i class="text-primary">site.cct@uenp.edu.br</i>.
 
     </div>
 

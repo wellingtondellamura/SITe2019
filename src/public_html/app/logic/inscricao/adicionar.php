@@ -62,7 +62,7 @@ if ($res>0) {
       $messages .= "Não foi possível se inscrever na oficina $m";
     }
   }
-
+  $data['id'] = $res;
   //registrar_titulo(getTitulo(3118067, 25191, $res),  $data_vencimento, $valor, $inscricao_id);
   if (strlen($messages) > 0){
     $messages = "<ul>".$messages."</ul>";

@@ -45,7 +45,7 @@
         <h4>Dados Pessoais</h4>
         <div class="form-row">
           <div class="form-group col-12 col-md-4">
-              <input type="text" class="form-control" name="cpf" placeholder="CPF" required="true" value="<?=$cpf?>">
+              <input type="text" class="form-control cpf" name="cpf" placeholder="CPF" required="true" value="<?=$cpf?>">
               <small id="cpfHelp" class="form-text text-muted">Informe seu CPF no formato 123.456.789-10.</small>
           </div>
         </div>
@@ -156,9 +156,10 @@
             <div class="form-group col-12 col-sm-6">
               <label for="graduacao">Graduando em/Graduado em</label>
               <select class="form-control" name="graduacao" required="true" value="<?=$graduacao?>">
-                  <option value="" disabled="true">Selecione uma opção</option>
-                  <option>Engenharia da Computação</option>
+                  <option value="" disabled="true">Selecione uma opção</option>                  
+                  <option>Engenharia da Computação</option>|
                   <option>Ciência da Computação</option>
+                  <option>Licenciatura em Computação</option>|
                   <option>Sistemas de Informação</option>
                   <option>Tecnologia (Desenvolvimento/Segurança/Redes)</option>
                   <option>Outra área tecnológica correlata</option>
